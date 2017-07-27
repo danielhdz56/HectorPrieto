@@ -306,3 +306,7 @@ footer p {
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
+
+.margin {
+  margin-bottom: 50px !important;
+}
