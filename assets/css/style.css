@@ -224,13 +224,13 @@ a:focus {
 
 @media (min-width: 100px) {
   .about-section {
-    padding-top: 80px;
+    padding-top: 90px;
   }
   .contact-section {
     padding-top: 200px;
   }
   .strategic-section {
-    padding: 40px 0;
+    padding: 80px 0;
 }
 .btn {
   text-transform: uppercase;
@@ -295,7 +295,7 @@ footer p {
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;
+  font-size: 50px;
   line-height: 1;
   letter-spacing: normal;
   text-transform: none;
