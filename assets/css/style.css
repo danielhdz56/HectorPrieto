@@ -313,3 +313,8 @@ footer p {
 .lang {
   height: 20px !important;
 }
+.hector {
+  font-size: 22px !important;
+  margin-right: 10px;
+  line-height: 1.5 !important;
+}
