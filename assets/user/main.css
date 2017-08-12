@@ -5,6 +5,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
+  background: #cff1d0;
 }
 
 /*
@@ -14,8 +15,17 @@ body {
 h1 {
   margin-bottom: 20px;
   padding-bottom: 9px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #bda3c1;
+  color: #7e4b86;
 }
+
+/*
+ * Navbar
+ */
+
+ #navbarTogglerBtn {
+     outline-color: #7e4b86;
+ }
 
 /*
  * Sidebar
@@ -59,70 +69,46 @@ h1 {
  * Dashboard
  */
 
- /* Placeholders */
-.placeholders {
-  padding-bottom: 3rem;
-}
-
-.placeholder img {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-.nav-link, div.bg-purple, #file, div.bg-lightGreen, .btn {
-  cursor: pointer;
-}
 .bg-purple{
-  background: #ff5e62;
+  background: #bda3c1;
   color: whitesmoke;
 }
 .bg-purple:hover{
   color: white;
-  background: #e45559;
-  border-color: #e45559;
+  background: #987e9c;
+  border-color: #987e9c;
 }
 .bg-purple .card-subtitle {
-  color: lightgreen;
+  color: #cff1d0;
 }
 .bg-purple:hover .card-subtitle {
   color: #45ff45;
 }
-.bg-lightGreen {
-  background: lightgreen;
-  color: black;
-}
-.bg-lightGreen:hover{
-  color: black;
-  background: #93e893;
-  border-color: #93e893;
-}
+
 .bg-lightGreen .card-subtitle {
-  color: #e45559;
+  color: #987e9c;
 }
 th {
   cursor: pointer;
 }
-.table-striped tbody tr:nth-of-type(even) {
-  background: #e2f5e2;
-}
-.table-striped tbody tr:nth-of-type(odd) {
-  background: white;
-}
+
 .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
-  background: #ff5e62;
+  background: #bda3c1;
   color: whitesmoke;
   cursor: pointer;
 }
+
 header a {
   color: white;
 }
 header a:hover {
-  color: lightgreen;
+  color: #7e4b86;
 }
 a{
-  color: #ff5e62;
+  color: #bda3c1;
 }
 a:hover {
-  color: lightgreen;
+  color: #7e4b86;
 }
 button#signOut{
   color: #90ee90;
