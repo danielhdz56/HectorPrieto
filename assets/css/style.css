@@ -358,10 +358,12 @@ a:focus {
     }
     h2,
     h4,
-    h5 {
+    h5,
+    .purple {
         color: #911AA3;
+        text-transform: uppercase;
+        font-family: 'Merienda', cursive;
+        text-align: center !important;
     }
 }
 
-
-}
